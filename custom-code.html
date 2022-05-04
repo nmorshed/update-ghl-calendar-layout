@@ -1,0 +1,34 @@
+<script>
+
+var calendarBody = document.getElementsByClassName('hl_widget-body')[0];
+var calendarText = document.createElement("div");
+calendarText.innerHTML = '<h1>Schedule one one meeting <h1>' ;
+calendarText.classList.add("my-calendar");
+
+calendarBody.insertBefore(calendarText, calendarBody.firstChild);
+</script>
+
+<style>
+#__layout {
+    background: #e1e1e1 !important;
+}
+.hl-app .hl_widget {
+    background: #e1e1e1 !important;
+    padding-bottom: 50px;
+}
+.my-calendar {
+    background: #6cb2fd;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.my-calendar h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+</style>
